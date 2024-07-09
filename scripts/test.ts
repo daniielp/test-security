@@ -1,5 +1,5 @@
 async function createFileOnGitHub() {
-  const url = `https://api.github.com/repos/daniielp/test-security/contents/hello-world.md`;
+  const url = `https://api.github.com/repos/daniielp/test-security/contents/hello-worlad.md`;
   const body = {
     message: "this is a test lol",
     content: Buffer.from("Hello!").toString('base64'), // GitHub API expects content to be base64 encoded

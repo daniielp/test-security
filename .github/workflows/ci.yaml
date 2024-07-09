@@ -31,3 +31,5 @@ jobs:
 
       - name: Test run
         run: pnpx tsx ./scripts/test.ts
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
